@@ -11,7 +11,7 @@ import dagshub
 dagshub.init(repo_owner='Sourabh861', repo_name='mlflow-dagshub-demo', mlflow=True)
 
 # mlflow.set_tracking_uri("file:./mlruns")
-mlflow.set_tracking_uri("https://github.com/Sourabh861/mlflow-dagshub-demo.git")
+mlflow.set_tracking_uri("https://dagshub.com/Sourabh861/mlflow-dagshub-demo.mlflow")
 
 # Load the iris dataset
 iris = load_iris()
